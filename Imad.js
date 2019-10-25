@@ -19,18 +19,18 @@ const paragraph = document.querySelector
  function fourTen(){
         for(let i = 1; i<101; i++) {
         if (i%4==0 && i%10==0){
-     console.log("FourTen");
+    console.log("FourTen");
         }
       else if(i%10==0){
-        console.log("Ten");
+    console.log("Ten");
         }
       else if (i%4==0){
-        console.log("Four");
-         }
+     console.log("Four");
+        }
          else{
             console.log(i);
 
-         }
-}
+        }
+
 
   
