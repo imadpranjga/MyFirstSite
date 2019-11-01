@@ -7,8 +7,12 @@ function thirdangle() {
 
 function centuryFromYear(year) {
     var x = Math.floor(year/100);
-    if(year%100===0) return x;
-    else return x + 1; }
+    if(year%100===0) {
+        alert( x);
+    }
+    else {
+        alert( x + 1); 
+    }
 
 const h1 = document.querySelector('h1');
 const paragraph = document.querySelector
