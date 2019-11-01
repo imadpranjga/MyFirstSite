@@ -5,7 +5,8 @@ function thirdangle() {
     alert("The 3rd angle is " + angle3);
 }
 
-function centuryFromYear(year) {
+function centuryFromYear() {
+    var year= prompt("what year is it?")
     var x = Math.floor(year/100);
     if(year%100===0) {
         alert( x);
@@ -13,6 +14,7 @@ function centuryFromYear(year) {
     else {
         alert( x + 1); 
     }
+}
 
 const h1 = document.querySelector('h1');
 const paragraph = document.querySelector
