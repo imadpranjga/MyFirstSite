@@ -1,7 +1,6 @@
 body {
-  color: #000;
-  margin:0;
   background-color: blue;
+  margin:0;
 }
 
 ul {
@@ -40,10 +39,12 @@ p {
   font-family: Arial;
 
   /* This is the background colour */
+
 }
 
+
 h1 {
-  color: violet;
+  color: #F02525;
   text-align: center;
 }
 
