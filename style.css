@@ -3,7 +3,9 @@
 body {
 	margin: 0;
 }
-
+#Homer{
+	margin-top: 3em;
+}
 ul {
 	list-style-type: none;
 	margin: 0;

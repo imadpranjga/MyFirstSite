@@ -33,4 +33,11 @@ function fourTen() {
         }
     }
 }
+function WordLength(){
+    let text=prompt("enter text");
+    alert(text.length);
 
+}
+
+function uppercase
+let text=prompt()
