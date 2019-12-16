@@ -41,3 +41,5 @@ function WordLength(){
 
 function uppercase
 let text=prompt()
+
+
