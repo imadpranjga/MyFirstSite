@@ -41,3 +41,14 @@ function WordLength(){
 
 function uppercase
 let text=prompt()
+
+function enc()
+    var enc =prompt(input){
+    var enc1=input.replace(/e/gi,"")
+    var enc2=enc1.replace(/t/gi,"")
+    var enc3= enc2.replace(/a/gi,"")
+    var enc4= enc3.replace(/o/gi,"")
+    var enc5=enc4.replace(/i/gi,"")
+    var cars = ["BMW", "Volvo", "Imad", "Ford", "Fiat", "Audi"];
+
+
