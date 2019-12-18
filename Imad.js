@@ -39,6 +39,6 @@ function WordLength(){
 
 }
 
-function uppercase
-let text=prompt()
+// function uppercase
+// let text=prompt("")
 
