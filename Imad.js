@@ -45,7 +45,7 @@ function WordLength(){
 function Encrypt(){
     var a = prompt("Enter the keyword")
     const b = a.toLowerCase()
-    var c = b.replace(/a/g, "@").replace(/b/g, "").replace(/c/g, "#").replace(/d/g, "1").replace(/e/g, "%").replace(/f/g, "2").replace(/g/g, "&").replace(/h/g, ";").replace(/i/g, "4").replace(/j/g, "'").replace(/k/g, "5").replace(/l/g, "-").replace(/m/g, "6").replace(/n/g, "3").replace(/o/g, ":").replace(/p/g, "<").replace(/q/g, ">").replace(/r/g, ",").replace(/s/g, "0").replace(/t/g, "9").replace(/u/g, "`").replace(/v/g, "8").replace(/w/g, "=").replace(/x/g, "7").replace(/y/g, "_").replace(/z/g, "~")
+    var c = b.replace(/a/g, "@").replace(/b/g, "!").replace(/c/g, "#").replace(/d/g, "1").replace(/e/g, "%").replace(/f/g, "2").replace(/g/g, "&").replace(/h/g, ";").replace(/i/g, "4").replace(/j/g, "'").replace(/k/g, "5").replace(/l/g, "-").replace(/m/g, "6").replace(/n/g, "3").replace(/o/g, ":").replace(/p/g, "<").replace(/q/g, ">").replace(/r/g, ",").replace(/s/g, "0").replace(/t/g, "9").replace(/u/g, "`").replace(/v/g, "8").replace(/w/g, "=").replace(/x/g, "7").replace(/y/g, "_").replace(/z/g, "~")
      if (/[0-9]/.test(a)){
         alert("null")
       }else{
